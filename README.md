@@ -67,7 +67,7 @@ You will need access to the following web-based tools:
 ### 2. **Sample Data**
 
 Download the following files for the workshop:
-- **Sample FASTQ files:** `short_1.fastq` and `short_2.fastq` (https://github.com/czhang0701/KCLModule2_2024_NGS_workshop/blob/main/short_fastq_files.zip)
+- **Sample FASTQ files:** `short_file.fastq` (https://github.com/czhang0701/KCLModule2_2024_NGS_workshop/blob/main/short_fastq_files.zip)
 
 ---
 
@@ -75,7 +75,7 @@ Download the following files for the workshop:
 
 ### **1. Quality Control Using Galaxy**
 1. Log into Galaxy [here](https://usegalaxy.org/).
-2. Upload the FASTQ files (`short_1.fastq` and `short_2.fastq`).
+2. Upload the FASTQ file (`short_file.fastq`).
 3. Search for the **FastQC** tool and run it on both FASTQ files.
 4. View the generated reports and check for any quality issues, such as low-quality bases or adapter contamination.
 
