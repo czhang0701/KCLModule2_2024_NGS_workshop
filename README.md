@@ -67,14 +67,7 @@ You will need access to the following web-based tools:
 ### 2. **Sample Data**
 
 Download the following files for the workshop:
-- **Sample FASTQ files:** `short_1.fastq` and `short_2.fastq`
-- **Reference Genome (if needed):** `reference_genome.fasta`
-
-### 3. **Project Structure**
-
-Once you download the data, the directory structure should look something like this:
-
-NGS_Workshop/ ├── data/ │ ├── short_1.fastq │ ├── short_2.fastq │ ├── reference_genome.fasta │ └── ... ├── README.md └── scripts/ └── run_pipeline.sh
+- **Sample FASTQ files:** `short_1.fastq` and `short_2.fastq` (https://github.com/czhang0701/KCLModule2_2024_NGS_workshop/blob/main/short_fastq_files.zip)
 
 ---
 
