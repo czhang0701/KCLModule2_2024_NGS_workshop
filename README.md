@@ -110,7 +110,7 @@ Download the following files for the workshop:
 
 After completing the steps, save your session in IGV Web by following these instructions:
 1. In the IGV Web App, save your session by selecting **File > Save Session**.
-2. Copy the session URL and email it to **cheng.5.zhang@scilifelab.se** for review.
+2. Copy the session URL and email it to **cheng.5.zhang@kcl.ac.uk** for review.
 
 ---
 
