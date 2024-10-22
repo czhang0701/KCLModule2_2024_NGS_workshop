@@ -35,19 +35,25 @@ This workshop introduces participants to the complete next-generation sequencing
    - Task: Visualize BAM files and inspect sequencing alignments.
    - No new files are generated, but students can save session URLs for review.
 
-### 4. **Variant Calling Using Galaxy**
+### 4. **Sort the BAM file**
    - Tool: [Galaxy](https://usegalaxy.org/)
-   - Task: Call SNPs and INDELs using FreeBayes or GATK.
+   - Task: Sort the BAM file using Samtools.
+   - Files Generated:
+     - BAM File: sorted BAM file.
+
+### 5. **Variant Calling Using Galaxy**
+   - Tool: [Galaxy](https://usegalaxy.org/)
+   - Task: Call SNPs and INDELs using MiModD.
    - Files Generated:
      - VCF File: Contains identified variants.
 
-### 5. **Variant Annotation Using VEP**
+### 6. **Variant Annotation Using VEP**
    - Tool: [VEP](https://www.ensembl.org/Tools/VEP)
    - Task: Annotate variants using the VCF file and predict their effects.
    - Files Generated:
      - Annotated VCF File: Contains functional annotations for each variant.
 
-### 6. **In-depth Exploration of Variants Using IGV Web App**
+### 7. **In-depth Exploration of Variants Using IGV Web App**
    - Tool: [IGV Web App](https://igv.org/app/)
    - Task: Use IGV to visualize specific variants and their alignments.
    - Students will save session URLs for submission or review.
@@ -91,16 +97,23 @@ Download the following files for the workshop:
 3. Explore the alignment, zoom in on specific regions, and inspect the coverage and read alignment patterns.
 
 ### **4. Variant Calling Using Galaxy**
-1. In Galaxy, search for **FreeBayes** or **GATK HaplotypeCaller**.
-2. Input the aligned BAM file and reference genome.
-3. Run the variant calling process and generate a VCF file.
+1. In Galaxy, search for **Samtools Sort**.
+2. Input the aligned BAM file.
+3. Run the samtool and generate a sorted BAM file.
 
-### **5. Variant Annotation Using VEP**
+### **5. Variant Calling Using Galaxy**
+1. In Galaxy, search for **MiModD Variant Calling**.
+2. Input the sorted BAM file and the reference genome (**ensure it matches the one used for alignment**).
+3. Run the variant calling process and generate a BCF file.
+4. Search for **BCFtools View** and use that to convert the **BCF file** to **VCF file**.
+
+### **6. Variant Annotation Using VEP**
 1. Go to [VEP](https://www.ensembl.org/Tools/VEP).
 2. Upload the VCF file generated from the variant calling step.
-3. Run the annotation process and download the annotated VCF file.
+3. Select the matching **reference genome**.
+4. Run the annotation process and download the annotated VCF file.
 
-### **6. Explore Variants Using IGV**
+### **7. Explore Variants Using IGV**
 1. Load both the BAM file and the annotated VCF file into the [IGV Web App](https://igv.org/app/).
 2. Use IGV to visualize specific variants and explore their context in the read alignments.
 
