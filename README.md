@@ -134,6 +134,8 @@ After completing the steps, save your session in IGV Web by following these inst
   - [Introduction to IGV Web](https://www.youtube.com/watch?v=sFeK-25K5PE&t=210s)
   - [Advanced IGV Web Features](https://www.youtube.com/watch?v=HwvTcG2SEOs)
 - **VEP Documentation:** [VEP User Guide](https://www.ensembl.org/info/docs/tools/vep/index.html)
+- gs://genomics-public-data/platinum-genomes/bam/NA12878_S1.bam
+- gs://genomics-public-data/platinum-genomes/bam/NA12878_S1.bam.bai
 
 ---
 
